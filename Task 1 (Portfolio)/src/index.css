@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    /* background-image: linear-gradient(to bottom, #ff7e5f, #feb47b); */
+    background: radial-gradient(circle at 0% 0%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the gradient covers the entire container */
+    background-attachment: fixed;
+    color: azure;
+  }
+.name-logo {
+  font-family: "Qwitcher Grypen", cursive;
+}
+.section-heading {
+  font-family: "Playfair Display", serif;
+}
+p{
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 100; */
+}
+.hero-style{
+  font-family: "Noto Serif Oriya", serif;
+}
+.outer{
+  
+  perspective: 150px;
+  perspective-origin: bottom;  
+}
